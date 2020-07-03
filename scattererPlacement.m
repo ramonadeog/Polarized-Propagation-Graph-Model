@@ -7,6 +7,9 @@ function [Rsc,Esc] = scattererPlacement(Ns,Rgrid,option)
 %   2: for wall placement with a minimum of one on each wall
 %   3: wall and volume placement
 %rng('default')
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%=====================Ramoni Adeogun (AAU 2019)========================
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%&%
 Rscx = Rgrid(1)*rand(Ns,1);
 Rscy = Rgrid(2)*rand(Ns,1);
 Rscz = Rgrid(3)*rand(Ns,1);
